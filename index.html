@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111318">
+  <meta name="description" content="Independent software projects by Robert Wiersma.">
+  <title>Robert Wiersma — Projects</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="topbar">
+      <a class="wordmark" href="/" aria-label="Robert Wiersma home">Robert Wiersma</a>
+      <a class="github-link" href="https://github.com/RobWiersma" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <section class="projects" aria-labelledby="projects-heading">
+      <div class="section-heading">
+        <h1 id="experiments-heading">Selected projects</h1>
+        <span>03</span>
+      </div>
+
+      <article class="project">
+        <a class="project-mark gridsafety-mark" href="https://gridsafety.bswiersma.com" target="_blank" rel="noreferrer" aria-label="Open GridSafety demo">
+          <img src="https://github.com/RobWiersma/GridSafety/raw/main/web/public/favicon.svg" alt="GridSafety drone and power-line logo">
+        </a>
+        <div class="project-content">
+          <div class="project-titleline">
+            <h2>GridSafety</h2>
+            <span class="project-type">Operations platform</span>
+          </div>
+          <p class="description">A working drone power-line inspection platform built on AWS as a SaaS proof of concept. Drones fly real power-line routes, stream telemetry over MQTT, and report defects. GridSafety tracks each finding through triage, repair, and cost reporting.</p>
+          <div class="tags" aria-label="Technology stack">
+            <span>.NET 10</span><span>C#</span><span>AWS Lambda</span><span>AWS IoT Core / MQTT</span><span>DynamoDB</span><span>AWS CDK</span><span>React 19</span><span>TypeScript</span><span>Leaflet</span><span>OpenStreetMap</span>
+          </div>
+          <div class="project-links">
+            <a href="https://gridsafety.bswiersma.com" target="_blank" rel="noreferrer">Explore live demo <span>↗</span></a>
+            <a href="https://github.com/RobWiersma/GridSafety" target="_blank" rel="noreferrer">Source <span>↗</span></a>
+          </div>
+          <p class="demo-note">No sign-in required. Explore completed missions, flight telemetry, findings, repairs, and cost reports.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <a class="project-mark spotify-mark" href="https://spotifyblazor.bswiersma.com/" target="_blank" rel="noreferrer" aria-label="Open SpotifyBlazor demo">
+          <img src="https://github.com/RobWiersma/SpotifyBlazor/raw/main/SpotifyBlazor/Client/wwwroot/icon-192.png" alt="SpotifyBlazor app icon">
+        </a>
+        <div class="project-content">
+          <div class="project-titleline">
+            <h2>SpotifyBlazor</h2>
+            <span class="project-type">Web music player</span>
+          </div>
+          <p class="description">Your Spotify library, player, and podcasts in a fast Blazor WebAssembly app, with playback right in the browser. A built-in demo library plays free songs without a Spotify account, with visualizers responding to the actual audio.</p>
+          <div class="tags" aria-label="Technology stack">
+            <span>Blazor WebAssembly</span><span>C#</span><span>.NET 8</span><span>ASP.NET Core</span><span>Spotify Web API</span><span>Web Playback SDK</span><span>OAuth / JWT</span><span>Azure App Service</span><span>Application Insights</span><span>LRCLIB</span><span>Web Audio API</span><span>Canvas</span><span>Cloudflare</span>
+          </div>
+          <div class="project-links">
+            <a href="https://spotifyblazor.bswiersma.com/" target="_blank" rel="noreferrer">Launch web player <span>↗</span></a>
+            <a href="https://github.com/RobWiersma/SpotifyBlazor" target="_blank" rel="noreferrer">Source <span>↗</span></a>
+          </div>
+          <p class="demo-note">Try the built-in demo for playable music and audio-reactive visualizers—no Spotify account needed.</p>
+        </div>
+      </article>
+
+
+    </section>
+
+    <section class="experiments" aria-labelledby="experiments-heading">
+      <div class="section-heading">
+        <h1 id="experiments-heading">Experimental personal projects</h1>
+        <span>01</span>
+      </div>
+      <article class="project">
+        <a class="project-mark gitdrone-mark" href="https://lovelyosd.com/" target="_blank" rel="noreferrer" aria-label="Open LovelyOSD">
+          <img src="https://github.com/RobWiersma/GitDrone/raw/master/drone-logger/public/favicon.svg" alt="GitDrone logo">
+        </a>
+        <div class="project-content">
+          <div class="project-titleline">
+            <h2>GitDrone</h2>
+            <span class="project-type">Experimental · personal project</span>
+          </div>
+          <p class="description">A browser-based FPV video editor that synchronizes Betaflight blackbox logs with flight footage. It recreates the on-screen display in the goggles' original font, grades video, mixes audio, and renders finished videos or YouTube Shorts directly on the GPU. It also manages quadcopters and tune history, with a beta Inspector for detecting objects in inspection footage.</p>
+          <div class="tags" aria-label="Technology stack">
+            <span>Angular 22</span><span>.NET 10</span><span>C#</span><span>SQLite</span><span>EF Core</span><span>Leaflet</span><span>WebGPU</span><span>Azure</span>
+          </div>
+          <div class="project-links">
+            <a href="https://lovelyosd.com/" target="_blank" rel="noreferrer">Open LovelyOSD <span>↗</span></a>
+            <a href="https://github.com/RobWiersma/GitDrone" target="_blank" rel="noreferrer">Source <span>↗</span></a>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer>
+      <span>ROBERT WIERSMA</span>
+      <span>INDEPENDENT SOFTWARE PROJECTS</span>
+    </footer>
+  </main>
+</body>
+</html>
