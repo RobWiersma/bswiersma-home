@@ -21,6 +21,7 @@ body {
   height: 76px; display: flex; align-items: center; justify-content: space-between;
   border-bottom: 1px solid var(--line);
 }
+.topbar h1 { margin: 0; font: inherit; }
 .wordmark { color: var(--text); font-size: 17px; font-weight: 650; letter-spacing: -.025em; text-decoration: none; }
 .github-link, .project-links a { color: var(--muted); text-decoration: none; }
 .github-link:hover, .project-links a:hover { color: var(--text); }
@@ -29,7 +30,7 @@ body {
   margin: 35px 0 14px; color: var(--soft); text-transform: uppercase;
   letter-spacing: .15em; font-size: 11px; font-weight: 700;
 }
-.section-heading h1 { margin: 0; font: inherit; }
+.section-heading h2 { margin: 0; font: inherit; }
 .project {
   display: grid; grid-template-columns: 148px minmax(0, 1fr); gap: 24px;
   padding: 22px 0; border-top: 1px solid var(--line);
@@ -41,7 +42,7 @@ body {
 .project-mark img { display: block; width: 66px; height: 66px; object-fit: contain; }
 .spotify-mark img { width: 74px; height: 74px; border-radius: 14px; }
 .project-titleline { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
-.project h2 { margin: -3px 0 5px; font-size: 20px; line-height: 1.3; letter-spacing: -.035em; }
+.project h3 { margin: -3px 0 5px; font-size: 20px; line-height: 1.3; letter-spacing: -.035em; }
 .project-type { color: var(--soft); font-size: 11px; letter-spacing: .06em; text-transform: uppercase; }
 .description { max-width: 790px; margin: 0 0 12px; color: #c5cad3; font-size: 13px; line-height: 1.55; }
 .tags { display: flex; flex-wrap: wrap; gap: 5px; margin: 0 0 13px; }
@@ -66,7 +67,7 @@ footer {
   .project-mark { width: 86px; height: 86px; }
   .project-mark img { width: 52px; height: 52px; }
   .spotify-mark img { width: 58px; height: 58px; }
-  .project h2 { font-size: 18px; }
+  .project h3 { font-size: 18px; }
   .description { font-size: 12px; }
   .tags span { font-size: 9px; }
   footer { font-size: 8px; }
@@ -106,7 +107,7 @@ footer {
   border-radius: 6px;
 }
 .experiments .project-mark img { width: 38px; height: 38px; }
-.experiments .project h2 {
+.experiments .project h3 {
   margin: -2px 0 3px;
   font-size: 15px;
   font-weight: 600;
@@ -137,7 +138,7 @@ footer {
   }
   .experiments .project-mark { width: 58px; height: 54px; }
   .experiments .project-mark img { width: 32px; height: 32px; }
-  .experiments .project h2 { font-size: 14px; }
+  .experiments .project h3 { font-size: 14px; }
   .experiments .description { font-size: 10px; }
 }
 @media (max-width: 420px) {
